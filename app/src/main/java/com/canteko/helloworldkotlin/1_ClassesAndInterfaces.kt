@@ -28,10 +28,10 @@ interface MyInterface {
 }
 
 fun main(args: Array<String>? = null) {
-    var objectA = B("Hola", 1, "Var3")
-    println(objectA.var3)
-    objectA.foo()
-    println(objectA.concat("Hola", "Dew"))
-    println(objectA.sum(5))
-
+    var objectA = A("Hola")
+    var objectB = B("Hola", 1, "Var3")
+    println(objectB.var3)
+    objectB.foo()
+    println(objectB.concat("Hola", "Dew"))
+    println(objectB.sum(5))
 }
